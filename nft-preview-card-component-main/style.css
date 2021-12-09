@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    height: 667px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius:20px ;
+}
+
+.content {
+    height: 90%;
+    margin: 25px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+p {
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90%;
+    border-radius: 20px;
+   
+   
+}
+
+
+
+
+
+.hover {
+    
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+    width: 85%;
+    border-radius: 20px;
+    opacity: 0;
+    z-index: 2;
+
+    
+
+
+}
+
+.hover img {
+    position: relative;
+    width: 25%;
+    top: 35%;
+  
+}
+
+
+ .hover:hover {
+     
+     cursor: pointer;
+     background: rgb(0, 255, 255,.5);
+     opacity: 1;
+     transition: opacity, .3s, .3s;
+     
+ }
+
+
+
+
+h1 {
+   font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+
+    
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.line {
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+}
+
+#cyan {
+    color: hsl(178, 100%, 50%);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    
+}
+
+.user img {
+    width: 10%;
+    border: 1px solid white;
+
+border-radius: 50px;
+}
+
+.user p {
+    margin-left: 5%;
+}
+
+.username {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.username:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: .3s;
+}
